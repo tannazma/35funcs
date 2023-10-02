@@ -31,9 +31,15 @@ function max(number1, number2) {
 function maxDivide(number1, number2) {
   return Math.min(number1, number2) / Math.max(number1, number2)
 }
-function maxStr(string1,string2){
-
+function maxStr(string1, string2) {
+  const len1 = string1.length
+  const len2 = string2.length
+  if (len1 >= len2) {
+    return string1;
+  } else {
+    return string2
+  }
 }
 
-module.exports = { double1, double2, double3, repeat, batman, max, maxDivide };
+module.exports = { double1, double2, double3, repeat, batman, max, maxDivide, maxStr };
 
