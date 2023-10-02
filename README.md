@@ -1,15 +1,11 @@
 ## ✅ 0: double1
 Write a function with one `number` argument that returns double the argument.
 
-## ❌ 1: double2
+## ✅ 1: double2
 Write a function with two `number` arguments that returns double the first argument.
-### ⚠️ Errors:
-	- Function `double2` not found in index.js, did you export it?
 
-## ❌ 2: double3
+## ✅ 2: double3
 Write a function with two `number` arguments that returns double the largest argument.
-### ⚠️ Errors:
-	- Function `double3` not found in index.js, did you export it?
 
 ## ❌ 3: repeat
 Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string.
@@ -68,23 +64,35 @@ Write a function with two `string` arguments. Split both strings in halves and r
 ### ⚠️ Errors:
 	- Function `splitCombine` not found in index.js, did you export it?
 
-## 🔴 14: getName
+## ❌ 14: getName
 Write a function with one `{name: string}` argument. Return the name property.
+### ⚠️ Errors:
+	- Function `getName` not found in index.js, did you export it?
 
-## 🔴 15: getNames
+## ❌ 15: getNames
 Write a function with one `[{name: string}]`(list of object) argument. Return an array with all the name properties.
+### ⚠️ Errors:
+	- Function `getNames` not found in index.js, did you export it?
 
-## 🔴 16: combineName
+## ❌ 16: combineName
 Write a function with one `[{firstname: string, lastname: string}]`(list of object) argument. Return an array with all the full names (both the first and the last name as a single string with a space in between them).
+### ⚠️ Errors:
+	- Function `combineName` not found in index.js, did you export it?
 
-## 🔴 17: uniqueCountries
+## ❌ 17: uniqueCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an array with every unique country value in the input array.
+### ⚠️ Errors:
+	- Function `uniqueCountries` not found in index.js, did you export it?
 
-## 🔴 18: countCountries
+## ❌ 18: countCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an object with all the unique values as keys and the amount of occurences as value.
+### ⚠️ Errors:
+	- Function `countCountries` not found in index.js, did you export it?
 
-## 🔴 19: highestNumber
+## ❌ 19: highestNumber
 Write a function with one `[number]` argument. Return the highest number.
+### ⚠️ Errors:
+	- Function `highestNumber` not found in index.js, did you export it?
 
 ## 🔴 20: average
 Write a function with one `[number]` argument. Return the average.
