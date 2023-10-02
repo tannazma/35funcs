@@ -1,15 +1,11 @@
 ## ✅ 0: double1
 Write a function with one `number` argument that returns double the argument.
 
-## ❌ 1: double2
+## ✅ 1: double2
 Write a function with two `number` arguments that returns double the first argument.
-### ⚠️ Errors:
-	- Function `double2` not found in index.js, did you export it?
 
-## ❌ 2: double3
+## ✅ 2: double3
 Write a function with two `number` arguments that returns double the largest argument.
-### ⚠️ Errors:
-	- Function `double3` not found in index.js, did you export it?
 
 ## ❌ 3: repeat
 Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string.
