@@ -26,27 +26,19 @@ Write a function with two `number` arguments. Have it return the smallest number
 ## ✅ 7: maxStr
 Write a function with two `string` arguments. Have it return the longest string.
 
-## ❌ 8: even
+## ✅ 8: even
 Write a function with a single `number` argument. Return a boolean that indicated wether this number is even.
 ### 🧠 Tips:
 > use the `%`(remainder) operator to determine if something is divisible by something else. Read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder).
-### ⚠️ Errors:
-	- Function `even` not found in index.js, did you export it?
 
-## ❌ 9: evenBelow
+## ✅ 9: evenBelow
 Write a function with a single `number` argument. Return an array of all the numbers lower than this argument that are even.
-### ⚠️ Errors:
-	- Function `evenBelow` not found in index.js, did you export it?
 
-## ❌ 10: evenIn
+## ✅ 10: evenIn
 Write a function with a single `array of numbers` argument. Return an array of all the numbers in this array that are even.
-### ⚠️ Errors:
-	- Function `evenIn` not found in index.js, did you export it?
 
-## ❌ 11: multiplyArray
+## ✅ 11: multiplyArray
 Write a function with a single `array of numbers` argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
-### ⚠️ Errors:
-	- Function `multiplyArray` not found in index.js, did you export it?
 
 ## ❌ 12: divideArray
 Write a function with a single `array of numbers` argument. Return the result of dividing the number from left to right. So the first number gets divided by the second and the result of that gets divided by the third (and so on..). If the array contains a zero, return zero. If the array contains just one number, return that number.
