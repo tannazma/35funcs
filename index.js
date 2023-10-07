@@ -55,7 +55,7 @@ function evenBelow(number) {
     if (i % 2 === 0) {
       finishedArray.push(i)
     }
-   
+
   }
   return finishedArray
 }
@@ -79,8 +79,24 @@ function multiplyArray(...args) {
   }
   return result;
 }
+function divideArray(...array) {
+  if (array.includes(0)) {
+    return 0
+  }
+  if (array.length === 1) {
+    return array
+  }
+  let total = array[0]
+  for (let i = 1; i < array.length; i++) {
+    total = total / array[i]
+  }
+  return total
+}
+
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
-  even, evenIn, multiplyArray, evenBelow
+  even, evenIn, multiplyArray, evenBelow,
+  divideArray
 };
+console.log(divideArray(1, 2, 3, 4, 5))
