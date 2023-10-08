@@ -147,7 +147,7 @@
       {
         "input": [
           { "firstname": "Blibo", "lastname": "Blaggins" },
-          { "name": "Blobao", "lastname": "Bloaggins", "age": 25 }
+          { "firstname": "Blobao", "lastname": "Bloaggins", "age": 25 }
         ],
         "output": ["Blibo Blaggins", "Blobao Bloaggins"]
       }

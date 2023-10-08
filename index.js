@@ -126,10 +126,18 @@ function getNames(array) {
   }
   return completeArr
 }
+function combineName(...arr) {
+  const completeArr = []
+  for (let i = 0; i < arr.length; i++) {
+    completeArr.push(arr[i].firstname + " " + arr[i].lastname)
+  }
+  return completeArr
+}
+
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
-  getNames
+  getNames, combineName
 };
