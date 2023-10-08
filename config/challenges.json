@@ -125,8 +125,8 @@
     "name": "getName",
     "description": "Write a function with one `{name: string}` argument. Return the name property.",
     "assertions": [
-      { "input": { "name": "Blibo" }, "output": "blibo" },
-      { "input": { "name": "Blobao", "age": 25 }, "output": "Blobao" }
+      { "input": [{ "name": "Blibo" }], "output": "Blibo" },
+      { "input":[ { "name": "Blobao", "age": 25 }], "output": "Blobao" }
     ]
   },
   {

@@ -46,10 +46,8 @@ Write a function with a single `array of numbers` argument. Return the result of
 ## ✅ 13: splitCombine
 Write a function with two `string` arguments. Split both strings in halves and recombine the halves. Return the longest results of the two combinations (or the first one if both have the same length).
 
-## ❌ 14: getName
+## ✅ 14: getName
 Write a function with one `{name: string}` argument. Return the name property.
-### ⚠️ Errors:
-	- Function `getName` not found in index.js, did you export it?
 
 ## ❌ 15: getNames
 Write a function with one `[{name: string}]`(list of object) argument. Return an array with all the name properties.

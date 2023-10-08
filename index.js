@@ -116,10 +116,12 @@ function splitCombine(string1, string2) {
   // }
   // return combinationArr;
 }
+function getName(object) {
+  return object.name;
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
-  divideArray, splitCombine
+  divideArray, splitCombine, getName
 };
-console.log(divideArray(1, 2, 3, 4, 5))
