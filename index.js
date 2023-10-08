@@ -142,10 +142,22 @@ function uniqueCountries(...arr) {
   }
   return completedArr
 }
+function countCountries(...arr) {
+  completedObj = {}
+  for (let i = 0; i < arr.length; i++) {
+    if (!completedObj[arr[i].country]) {
+      completedObj[arr[i].country] = 1
+    } else if ((completedObj[arr[i].country])) {
+      completedObj[arr[i].country] += 1
+    }
+  }
+  return completedObj
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
-  getNames, combineName, uniqueCountries
+  getNames, combineName, uniqueCountries,
+  countCountries
 };

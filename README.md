@@ -58,10 +58,8 @@ Write a function with one `[{firstname: string, lastname: string}]`(list of obje
 ## ✅ 17: uniqueCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an array with every unique country value in the input array.
 
-## ❌ 18: countCountries
+## ✅ 18: countCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an object with all the unique values as keys and the amount of occurences as value.
-### ⚠️ Errors:
-	- Function `countCountries` not found in index.js, did you export it?
 
 ## ❌ 19: highestNumber
 Write a function with one `[number]` argument. Return the highest number.
