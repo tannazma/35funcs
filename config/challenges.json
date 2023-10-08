@@ -202,7 +202,7 @@
     "description": "Write a function with one `[number]` argument. Return the highest number.",
     "assertions": [
       { "input": [5], "output": 5 },
-      { "input": [5, -5, 10, -100], "output": 20 }
+      { "input": [5, -5, 10, -100], "output": 10 }
     ]
   },
   {

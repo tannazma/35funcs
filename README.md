@@ -61,10 +61,8 @@ Write a function with one `[{country: string}]`(list of object) argument. Return
 ## ✅ 18: countCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an object with all the unique values as keys and the amount of occurences as value.
 
-## ❌ 19: highestNumber
+## ✅ 19: highestNumber
 Write a function with one `[number]` argument. Return the highest number.
-### ⚠️ Errors:
-	- Function `highestNumber` not found in index.js, did you export it?
 
 ## 🔴 20: average
 Write a function with one `[number]` argument. Return the average.

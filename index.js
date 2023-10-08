@@ -153,11 +153,14 @@ function countCountries(...arr) {
   }
   return completedObj
 }
+function highestNumber(...arrayOfNumber) {
+  return Math.max(...arrayOfNumber)
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
   getNames, combineName, uniqueCountries,
-  countCountries
+  countCountries, highestNumber
 };
