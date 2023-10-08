@@ -92,11 +92,34 @@ function divideArray(...array) {
   }
   return total
 }
-
+function splitCombine(string1, string2) {
+  const lengthHalfString1 = string1.length / 2
+  const lengthHalfString2 = string2.length / 2
+  const half1of1 = string1.slice(0, lengthHalfString1)
+  const half2of1 = string1.slice(lengthHalfString1)
+  const half1of2 = string2.slice(0, lengthHalfString2)
+  const half2of2 = string2.slice(lengthHalfString2)
+  const combination1 = half1of1 + half2of2;
+  const combination2 = half1of2 + half2of1;
+  if (combination1.length >= combination2.length) {
+    return combination1;
+  } else {
+    return combination2;
+  }
+  // const arr = [half1of1, half2of2, half2of1, half1of2]
+  // const arrLength = arr.length
+  // let combinationArr = []
+  // for (let i = 0; i < arrLength; i++) {
+  //   for (let j = i + 1; j < arrLength; j++) {
+  //     combinationArr.push(arr[i] + arr[j]);
+  //   }
+  // }
+  // return combinationArr;
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
-  divideArray
+  divideArray, splitCombine
 };
 console.log(divideArray(1, 2, 3, 4, 5))
