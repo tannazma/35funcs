@@ -55,10 +55,8 @@ Write a function with one `[{name: string}]`(list of object) argument. Return an
 ## ✅ 16: combineName
 Write a function with one `[{firstname: string, lastname: string}]`(list of object) argument. Return an array with all the full names (both the first and the last name as a single string with a space in between them).
 
-## ❌ 17: uniqueCountries
+## ✅ 17: uniqueCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an array with every unique country value in the input array.
-### ⚠️ Errors:
-	- Function `uniqueCountries` not found in index.js, did you export it?
 
 ## ❌ 18: countCountries
 Write a function with one `[{country: string}]`(list of object) argument. Return an object with all the unique values as keys and the amount of occurences as value.

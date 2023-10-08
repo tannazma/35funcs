@@ -133,11 +133,19 @@ function combineName(...arr) {
   }
   return completeArr
 }
-
+function uniqueCountries(...arr) {
+  completedArr = []
+  for (let i = 0; i < arr.length; i++) {
+    if (!completedArr.includes(arr[i].country)) {
+      completedArr.push(arr[i].country)
+    }
+  }
+  return completedArr
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
-  getNames, combineName
+  getNames, combineName, uniqueCountries
 };
