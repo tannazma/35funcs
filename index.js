@@ -119,9 +119,17 @@ function splitCombine(string1, string2) {
 function getName(object) {
   return object.name;
 }
+function getNames(array) {
+  const completeArr = []
+  for (let i = 0; i < array.length; i++) {
+    completeArr.push(array[i].name)
+  }
+  return completeArr
+}
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
-  divideArray, splitCombine, getName
+  divideArray, splitCombine, getName,
+  getNames
 };

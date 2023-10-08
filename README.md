@@ -49,10 +49,8 @@ Write a function with two `string` arguments. Split both strings in halves and r
 ## ✅ 14: getName
 Write a function with one `{name: string}` argument. Return the name property.
 
-## ❌ 15: getNames
+## ✅ 15: getNames
 Write a function with one `[{name: string}]`(list of object) argument. Return an array with all the name properties.
-### ⚠️ Errors:
-	- Function `getNames` not found in index.js, did you export it?
 
 ## ❌ 16: combineName
 Write a function with one `[{firstname: string, lastname: string}]`(list of object) argument. Return an array with all the full names (both the first and the last name as a single string with a space in between them).

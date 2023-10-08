@@ -126,16 +126,16 @@
     "description": "Write a function with one `{name: string}` argument. Return the name property.",
     "assertions": [
       { "input": [{ "name": "Blibo" }], "output": "Blibo" },
-      { "input":[ { "name": "Blobao", "age": 25 }], "output": "Blobao" }
+      { "input": [{ "name": "Blobao", "age": 25 }], "output": "Blobao" }
     ]
   },
   {
     "name": "getNames",
     "description": "Write a function with one `[{name: string}]`(list of object) argument. Return an array with all the name properties.",
     "assertions": [
-      { "input": [{ "name": "Blibo" }], "output": ["blibo"] },
+      { "input": [[{ "name": "Blibo" }]], "output": ["Blibo"] },
       {
-        "input": [{ "name": "Blibo" }, { "name": "Blobao", "age": 25 }],
+        "input": [[{ "name": "Blibo" }, { "name": "Blobao", "age": 25 }]],
         "output": ["Blibo", "Blobao"]
       }
     ]
