@@ -67,7 +67,7 @@ Write a function with one `[number]` argument. Return the highest number.
 ## ✅ 20: average
 Write a function with one `[number]` argument. Return the average.
 
-## 🔴 21: mode
+## ✅ 21: mode
 Write a function with one `[number]` argument. Return the mode (most frequent value).
 
 ## 🔴 22: reverse

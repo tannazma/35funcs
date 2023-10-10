@@ -164,11 +164,28 @@ function average(...arrayOfNumber) {
   return (sum / arrayOfNumber.length);
 }
 
+function mode(...arrayOfNumber) {
+  let frequencyObject = {}
+  let max = 0;
+  let mode
+  arrayOfNumber.forEach((function (number) {
+    frequencyObject[number] = (frequencyObject[number] || 0) + 1;
+    if (max < frequencyObject[number]) {
+      max = frequencyObject[number]
+      mode = number
+
+    }
+  }))
+  return mode
+}
+
+
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
   getNames, combineName, uniqueCountries,
-  countCountries, highestNumber, average
+  countCountries, highestNumber, average,
+  mode
 };
