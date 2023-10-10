@@ -184,6 +184,11 @@ function reverse(string) {
   const stringJoin = stringReverse.join("")
   return stringJoin
 }
+function palindrome(string) {
+  const stringToLowerCase = string.toLowerCase()
+  const stringReverse = stringToLowerCase.split("").reverse().join("")
+  return stringToLowerCase === stringReverse
+}
 
 module.exports = {
   double1, double2, double3, repeat,
@@ -192,5 +197,5 @@ module.exports = {
   divideArray, splitCombine, getName,
   getNames, combineName, uniqueCountries,
   countCountries, highestNumber, average,
-  mode, reverse
+  mode, reverse, palindrome
 };

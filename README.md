@@ -73,7 +73,7 @@ Write a function with one `[number]` argument. Return the mode (most frequent va
 ## ✅ 22: reverse
 Write a function with one `string` argument. Return the reversed string.
 
-## 🔴 23: palindrome
+## ✅ 23: palindrome
 Write a function with one `string` argument. Return true or false wether this string is a palindrome.
 ### 🧠 Tips:
 > A palindrome is a string that stays the same when you reverse it. Like 'Bob' or 'Racecar'.

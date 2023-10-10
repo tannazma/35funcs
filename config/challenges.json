@@ -240,6 +240,11 @@
     "description": "Write a function with one `string` argument. Return true or false wether this string is a palindrome.",
     "tips": [
       "A palindrome is a string that stays the same when you reverse it. Like 'Bob' or 'Racecar'."
+    ],
+    "assertions": [
+      { "input": ["Racecar"], "output": true },
+      { "input": ["Madam"], "output": true },
+      { "input": ["Hello"], "output": false }
     ]
   },
   {
