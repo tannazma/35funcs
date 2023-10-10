@@ -64,7 +64,7 @@ Write a function with one `[{country: string}]`(list of object) argument. Return
 ## ✅ 19: highestNumber
 Write a function with one `[number]` argument. Return the highest number.
 
-## 🔴 20: average
+## ✅ 20: average
 Write a function with one `[number]` argument. Return the average.
 
 ## 🔴 21: mode

@@ -207,7 +207,13 @@
   },
   {
     "name": "average",
-    "description": "Write a function with one `[number]` argument. Return the average."
+    "description": "Write a function with one `[number]` argument. Return the average.",
+    "assertions": [
+      { "input": [1, 2, 3, 4, 5], "output": 3 },
+      { "input": [10, 20, 30], "output": 20 },
+      { "input": [3, -3], "output": 0 },
+      { "input": [300], "output": 300 }
+    ]
   },
   {
     "name": "mode",

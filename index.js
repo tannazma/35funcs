@@ -156,11 +156,19 @@ function countCountries(...arr) {
 function highestNumber(...arrayOfNumber) {
   return Math.max(...arrayOfNumber)
 }
+
+function average(...arrayOfNumber) {
+  let sum = 0;
+  console.log(arrayOfNumber)
+  arrayOfNumber.forEach((num) => { sum += num });
+  return (sum / arrayOfNumber.length);
+}
+
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,
   even, evenIn, multiplyArray, evenBelow,
   divideArray, splitCombine, getName,
   getNames, combineName, uniqueCountries,
-  countCountries, highestNumber
+  countCountries, highestNumber, average
 };
