@@ -178,7 +178,12 @@ function mode(...arrayOfNumber) {
   }))
   return mode
 }
-
+function reverse(string) {
+  const stringArr = string.split("")
+  const stringReverse = stringArr.reverse()
+  const stringJoin = stringReverse.join("")
+  return stringJoin
+}
 
 module.exports = {
   double1, double2, double3, repeat,
@@ -187,5 +192,5 @@ module.exports = {
   divideArray, splitCombine, getName,
   getNames, combineName, uniqueCountries,
   countCountries, highestNumber, average,
-  mode
+  mode, reverse
 };

@@ -227,7 +227,13 @@
   },
   {
     "name": "reverse",
-    "description": "Write a function with one `string` argument. Return the reversed string."
+    "description": "Write a function with one `string` argument. Return the reversed string.",
+    "assertions": [
+      { "input": ["Hello"], "output": "olleH" },
+      { "input": ["OpenAI"], "output": "IAnepO" },
+      { "input": ["123456"], "output": "654321" },
+      { "input": ["a"], "output": "a" }
+    ]
   },
   {
     "name": "palindrome",

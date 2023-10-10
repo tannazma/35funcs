@@ -70,7 +70,7 @@ Write a function with one `[number]` argument. Return the average.
 ## ✅ 21: mode
 Write a function with one `[number]` argument. Return the mode (most frequent value).
 
-## 🔴 22: reverse
+## ✅ 22: reverse
 Write a function with one `string` argument. Return the reversed string.
 
 ## 🔴 23: palindrome
