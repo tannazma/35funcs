@@ -190,6 +190,11 @@ function palindrome(string) {
   return stringToLowerCase === stringReverse
 }
 
+function array_intersect(arr1, arr2) {
+  return arr1.filter((value) => arr2.includes(value))
+  console.log(arr1)
+}
+
 module.exports = {
   double1, double2, double3, repeat,
   batman, max, maxDivide, maxStr,

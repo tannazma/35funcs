@@ -81,7 +81,7 @@ Write a function with one `string` argument. Return true or false wether this st
 ## 🔴 24: pyramid
 Write a function with one `number` argument. Have it log a pyramid of that size.
 
-## 🔴 25: array_intersect
+## ✅ 25: array_intersect
 Write a function that takes two `[number]` arguments and return an array that contains all numers that are in both arrays.
 
 ## 🔴 26: key_intersect
